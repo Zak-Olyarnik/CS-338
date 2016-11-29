@@ -1,0 +1,11 @@
+Self-rating:
+• Clean, logical visual layout and components: 2
+• Adding Items: 2
+• Removing Items: 2
+• Editing Items: 2
+• Error checking: 2
+• Proper underlying data structures: 2
+• Robust to user actions: 2
+• Documentation: 2
+
+Collaboration Statement: I did not collaborate with anyone else on this assignment.

@@ -1,0 +1,115 @@
+/*
+Zakary Olyarnik
+zwo24@drexel.edu
+CS 338:GUI, Assignment 2
+*/
+
+/* Use this style sheet to update the look and 
+feel of your assignment web page. You can change
+all parts of the CSS and add new sections. */
+
+h1 {
+  color: White;
+  background: DarkViolet;
+  font-family: Copperplate Gothic Bold, Georgia, Times, serif;
+  font-size: 33px;
+}
+
+body {
+  color: LightGrey;
+  background: DarkViolet;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* create a border around the canvas */
+canvas {
+  border: medium solid Black;
+  background: LightGrey;
+}
+
+/* style the table so that the heading row looks different
+from other rows. In addition, every other row should have 
+a different background color. Add other styling as you see fit
+to make the table look nice and readable.
+*/
+table {
+  margin: 20px auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th, td:first-child {
+  color: White;
+  background: CornflowerBlue;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: Bold;
+}
+
+td {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 18px;
+}
+
+th {
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+td:first-child {			/* first column */
+  text-align: right;
+}
+
+th, td {
+  padding: 20px;
+  width: 20%;
+  border: 2px solid White;
+}
+
+tr:nth-child(even) {			/* every other row, taken from http://www.w3schools.com/html/html_tables.asp */
+  background: LightGrey;
+  color: DarkViolet;
+}
+
+
+/* style the input area for the canvas to have a border and
+background that separates it from the rest of the page*/
+fieldset {
+  background: CornflowerBlue;
+  width: 40%;
+  border-style: solid;
+  border-width: medium;
+  border-color: White;
+}
+
+legend {
+  color: White;
+}
+
+/* For the text input area labels, make the font bold and italic */
+label {
+  font-weight: Bold;
+  font-style: Italic;
+}
+
+/* when the user hovers or focuses on the input fields, 
+make them change their background color */
+input[type="text"]:hover, input[type="text"]:focus {
+  background: LightGrey;
+}
+
+/* The submit button should have a border and should change
+color when the user hovers over it */
+button {		/* although not specified, I wanted this formatting for both buttons for consistency */
+  color: Black;
+  background: LightGrey;
+  border-style: solid;
+  border-width: medium;
+  border-color: Black;
+}
+
+button:hover {	/* although not specified, I wanted this formatting for both buttons for consistency */
+  background: CornflowerBlue;
+}
